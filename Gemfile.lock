@@ -11,6 +11,14 @@ GEM
       scanf (~> 1.0)
       sxp (~> 2.0)
       unicode-types (~> 1.8)
+    ethon (0.16.0)
+      ffi (>= 1.15.0)
+    ffi (1.17.0-aarch64-linux-gnu)
+    ffi (1.17.0-arm-linux-gnu)
+    ffi (1.17.0-arm64-darwin)
+    ffi (1.17.0-x86-linux-gnu)
+    ffi (1.17.0-x86_64-darwin)
+    ffi (1.17.0-x86_64-linux-gnu)
     htmlentities (4.3.4)
     link_header (0.0.8)
     matrix (0.4.2)
@@ -69,6 +77,8 @@ GEM
       tty-screen (~> 0.8)
       wisper (~> 2.0)
     tty-screen (0.8.2)
+    typhoeus (1.4.1)
+      ethon (>= 0.9.0)
     unicode-types (1.10.0)
     wisper (2.0.1)
 
@@ -86,6 +96,7 @@ DEPENDENCIES
   rdf-turtle
   rdf-vocab (~> 3.3)
   tty-prompt
+  typhoeus
 
 BUNDLED WITH
    2.5.16
